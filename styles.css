@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-repeat: no-repeat;
+  font-family: 'Kanit', sans-serif;
 }
 
 .link-sin-estilo {
@@ -80,9 +81,11 @@ img{
   height: 200px;
   width: 300px;
 }
+button{
+  width: 200px;
+}
 
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   h1 {
     font-size: 15px;
   }
